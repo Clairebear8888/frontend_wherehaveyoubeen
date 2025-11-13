@@ -15,7 +15,8 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji",
+    "Noto Color Emoji", "Android Emoji", "EmojiSymbols", sans-serif;
   background-color: var(--background);
   color: var(--text);
   line-height: 1.6;
@@ -353,4 +354,11 @@ hr {
   .btn {
     width: 100%;
   }
+}
+
+/* Add this to your index.css */
+.country-card h2,
+.country-header h1 {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji",
+    sans-serif;
 }
