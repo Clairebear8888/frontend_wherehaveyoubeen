@@ -1,6 +1,7 @@
 export interface Country {
   id: number;
   name: string;
+  countryCode: string;
   favoriteCity: string | null;
   favoriteFood: string | null;
   visitedDate: string | null;
