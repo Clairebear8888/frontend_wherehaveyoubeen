@@ -5,6 +5,9 @@ import type { Country } from "../types";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
+console.log("API_URL:", API_URL);
+console.log("Full URL:", `${API_URL}/countries`);
+
 function HomePage() {
   const [countries, setCountries] = useState<Country[]>([]);
   const [loading, setLoading] = useState(true);
