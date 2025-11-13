@@ -1,5 +1,5 @@
 import api from "./api";
-import { Country } from "../types/country";
+import type { Country } from "../types";
 
 export async function getCountries() {
   const { data } = await api.get("/countries");

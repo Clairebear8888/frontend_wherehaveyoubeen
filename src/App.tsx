@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HomePage from "./pages/HomePage";
-import CountryDetailsPage from "./pages/CountryDetailsPage";
-import CountryFormPage from "./pages/CountryFormPage";
-import MemoryFormPage from "./pages/MemoryFormPage";
+import HomePage from "../src/Pages/HomePage";
+import CountryDetailsPage from "../src/Pages/CountryDetailsPage";
+import CountryFormPage from "../src/Pages/CountryFormPage";
+import MemoryFormPage from "../src/Pages/MemoryFormPage";
 
 function App() {
   return (
